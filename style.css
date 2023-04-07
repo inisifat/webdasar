@@ -29,12 +29,15 @@
     --p-font:0.9rem;
 }
 *::selection {
-    background: var(--main-color);
-    color: sienna;
+    background: rgb(245, 150, 62);
+    color: rgb(39, 19, 6);
 }
 body {
     color: black;
-    background: rgb(245, 150, 62);
+    background: rgb(100, 58, 33);
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 header {
     position: fixed;
@@ -45,11 +48,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 50px;
-    background: var(--bg-color);
+    padding: 10px 30px;
+    background: rgb(172, 95, 50);
 }
 .logo{
-    color: brown;
+    color: rgb(250, 224, 212);
     font-weight: 600;
     font-size: 2.4rem;
 }
@@ -63,16 +66,13 @@ header {
     font-weight: 500;
 }
 .navbar a:hover{
-    color: red;
+    color: rgb(253, 250, 250);
     transition: .4s;
 }
 #menu-icon{
     font-size: 2rem;
     cursor:  no-drop;
     display: none;
-}
-section{
-    padding: 70px 17% 70px ;
 }
 .home{
     width: 100%;
@@ -87,22 +87,29 @@ section{
     max-width: 100%;
     width: 200px;
     height: auto;
+    margin-top: 50px;
+    margin-right: 1rem;
 }
 .home-text h3{
     font-size: 1.5rem;
-    margin: 2rem 0 2 rem;
-    color: rgb(68, 33, 7);
+    margin-top: 100px;
+    color: rgb(177, 128, 92);
+    padding-left: 220px;
+    margin-top: 50px;
 }
 .home-text h4{
     font-size: var(--h4-font);
     margin: 1rem 0.2rem 1rem;
+    padding-left: 220px;
 }
 .btn{
     display: inline-block;
-    padding: 7px 20px;
+    padding: 4px 7px;
     background: rgb(172, 95, 50);
     border-radius: 1rem;
-    margin-top: 1rem;
+    margin: 0rem 220px 10px ;
+    margin-right: 10px;
+    
 }
 .btn:hover{
     transform: scale(1) translateY(9px);
@@ -116,11 +123,151 @@ section{
 }
 .about-img img{
     max-width: 100%;
-    width: 150px;
-    height: auto;
-    padding: 0;
+    width: 200px;
+    padding: 0;  
+    background: black;
+    border-radius: 10rem;
+    margin-top: 100px;
+    margin: 0rem 50px 5px;
 }
 .about-text h4{
-    color: rgb(80, 39, 10);
+    color: rgb(95, 49, 10);
+    text-decoration: underline;
+}
+.about-text {
+    color: black;
     font-weight: 600;
+    background:  rgb(194, 109, 60);
+    background-border: black;
+    height: 250px;
+    width: 650px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+.sekolah{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.sekolah-img img{
+    max-width: 100%;
+    width: 200px;
+    padding: 0;  
+    background:  rgb(170, 110, 57);
+    border-radius: 10rem;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin: 0rem 50px 5px;
+}    
+.sekolah-text h4{
+    color: rgb(95, 49, 10);
+    text-decoration: underline;
+}
+.sekolah-text {
+    color: black;
+    font-weight: 600;
+    background:  rgb(194, 109, 60);
+    height: 200px;
+    width: 650px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: justify;
+}
+.org{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.org-img img{
+    max-width: 100%;
+    width: 200px;
+    padding: 0;  
+    background:  rgb(170, 110, 57);
+    border-radius: 10rem;
+    margin-top: 50px;
+    margin: 0rem 50px 10px;
+}
+.org-text h4{
+    color: rgb(95, 49, 10);
+    text-decoration: underline;
+}
+.org-text {
+    color: black;
+    font-weight: 600;
+    background: rgb(194, 109, 60);
+    height: 200px;
+    width: 650px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: justify;
+}
+.karya{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.karya-img img{
+    max-width: 100%;
+    width: 195px;
+    padding: 0;  
+    background:  rgb(170, 110, 57);
+    border-radius: 10rem;
+    margin-top: 90px;
+    margin: 0rem 50px 5px;
+}
+.karya-text h4{
+    color: rgb(95, 49, 10);
+    text-decoration: underline;
+}
+.karya-text {
+    color: black;
+    font-weight: 600;
+    background: rgb(194, 109, 60);
+    height: 200px;
+    width: 650px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: justify;
+}
+.red {
+    display: flex;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.red-text h4 {
+    color: rgb(95, 49, 10);
+    text-decoration: underline;
+    text-align: center;
+}
+.red-text {
+    color:   black;
+    padding:7px 7px;
+    background: rgb(172, 95, 50);
+    border-radius: 1rem;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.menu-container box-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.5rem;
+    align-items: center;    
+}
+.box-img img{
+    max-width: 100%;
+    width: 195px;
 }
