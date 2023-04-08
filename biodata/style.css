@@ -22,7 +22,7 @@
 
 :root {
     --main-color:#0000;
-    --ext-color:blue;
+    --ext-color:rgb(250, 245, 177);
     --bg-color:#0000;
     --big-font:5rem;
     --h2-font:2.25rem;
