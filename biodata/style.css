@@ -34,7 +34,7 @@
 }
 body {
     color: black;
-    background: rgb(100, 58, 33);
+    background: rgb(151, 65, 16);
     background-size: cover;
     margin-right: 5px;
     margin-left: 5px;
@@ -93,7 +93,7 @@ header {
 .home-text h3{
     font-size: 1.5rem;
     margin-top: 100px;
-    color: rgb(177, 128, 92);
+    color: rgb(233, 201, 178);
     padding-left: 220px;
     margin-top: 50px;
 }
@@ -137,7 +137,7 @@ header {
 .about-text {
     color: black;
     font-weight: 600;
-    background:  rgb(194, 109, 60);
+    background:  rgb(223, 144, 99);
     background-border: black;
     height: 250px;
     width: 650px;
@@ -170,7 +170,7 @@ header {
 .sekolah-text {
     color: black;
     font-weight: 600;
-    background:  rgb(194, 109, 60);
+    background:   rgb(223, 144, 99);
     height: 200px;
     width: 650px;
     padding: 20px;
@@ -201,7 +201,7 @@ header {
 .org-text {
     color: black;
     font-weight: 600;
-    background: rgb(194, 109, 60);
+    background:  rgb(223, 144, 99);
     height: 200px;
     width: 650px;
     padding: 20px;
@@ -232,7 +232,7 @@ header {
 .karya-text {
     color: black;
     font-weight: 600;
-    background: rgb(194, 109, 60);
+    background:  rgb(223, 144, 99);
     height: 200px;
     width: 650px;
     padding: 20px;
