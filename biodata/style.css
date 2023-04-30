@@ -261,13 +261,14 @@ header {
     margin-top: 30px;
     margin-left: 150px;
 }
-.menu-container box-img{
+.menu-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    grid-gap: 1.5rem;
-    align-items: center;    
+    grid-gap: 0.5rem;
+    align-items: center; 
 }
 .box-img img{
     max-width: 100%;
     width: 195px;
+    display: grid;
 }
